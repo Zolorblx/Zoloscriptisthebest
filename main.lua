@@ -10,7 +10,7 @@ if RELEASE_URL:find("PASTE_", 1, true) then
 end
 
 local env = (getgenv and getgenv()) or _G
-env.__ZOLO_PUBLIC_LOADER_ID = "ZOLO-PUBLIC-LOADER-2026-09-25-HR1"
+env.__ZOLO_PUBLIC_LOADER_ID = "ZOLO-PUBLIC-LOADER-2026-09-26-RN1"
 env.__ZOLO_REMOTE_RELEASE_URL = RELEASE_URL
 
 print("[ZOLO LOADER] " .. env.__ZOLO_PUBLIC_LOADER_ID)
