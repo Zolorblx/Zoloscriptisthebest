@@ -1,4 +1,4 @@
-local RELEASE_URL = "YOUR_PUBLIC_RAW_RELEASE_URL"
+local RELEASE_URL = "https://raw.githubusercontent.com/Zolorblx/Zoloscriptisthebest/refs/heads/main/Zolo.lua"
 
 local source = game:HttpGet(RELEASE_URL)
 
