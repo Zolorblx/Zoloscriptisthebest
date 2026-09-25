@@ -3,7 +3,7 @@
 -- Keep this loader tiny; it is also the URL ZOLO uses after a rejoin.
 
 local RELEASE_URL =
-    "PASTE_RAW_ZOLO_RELEASE_OBFUSCATED_LUA_URL_HERE"
+    "https://raw.githubusercontent.com/Zolorblx/Zoloscriptisthebest/refs/heads/main/Zolo.lua"
 
 if RELEASE_URL:find("PASTE_", 1, true) then
     error("[ZOLO] Set RELEASE_URL in main.lua first.")
